@@ -1,3 +1,1031 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+.navGI{
+	
+	display: flex;
+justify-content: center;
+align-content: center;
+flex-wrap: wrap;
+
+width: 100%;
+padding-bottom: 7%;
+
+
+
+
+}
+
+
+.nav1{
+display: flex;
+justify-content: space-between;
+align-content: center;
+align-items: center;
+
+flex-wrap: wrap;
+width: 90%;
+font-size: 12pt;
+	    font-family: 'Titillium Web', sans-serif;
+	    flex-direction: row;
+}
+
+.falselogo{
+	display: none;
+}
+
+.iodgsIMG{
+	display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+width: 100%;
+flex-direction: row;
+
+
+}
+
+.iodgs{
+display:flex;
+flex-direction:	row; 
+flex-wrap: wrap;
+justify-content: space-between;	 
+align-items:center;
+width: 800px;
+margin-left: 400px;
+
+}
+
+.IOD{
+display:flex;
+flex-direction:	column; 
+align-items: center;
+ 	
+}
+.Innovation{
+font-family: 'Bangers', cursive;
+	font-size: 60pt;}
+.On{font-family: 'Bangers', cursive;
+	font-size: 60pt;}
+
+.Demand{font-family: 'Bangers', cursive;
+	font-size: 60pt;}
+
+
+.gs{
+	font-size: 12pt;
+	    font-family: 'Titillium Web', sans-serif;
+
+
+text-align: center;
+ width:200px; 
+ height:25px;
+ 
+border:1px; border-style:solid; border-color:#black; display: inline-block; padding: .5em;
+padding: 5px;
+flex order: 4;
+
+}
+
+.FA{
+display:flex;
+flex-direction:	row;
+flex-wrap:nowrap;
+ 
+align-items:space-between;
+justify-content: space-between;
+align-content: flex-start;
+width:88%;
+ound: red;
+padding: 5%;
+
+
+}
+
+
+.boxfeature{
+display: flex;
+flex-direction: column;
+width: 50%;
+ound: blue;
+	
+	
+}
+
+.bFeatures{
+	font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	color: black;
+	ound: purple;
+	
+
+	}
+	.p1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+
+font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+    }
+	
+
+	.boxAbout{
+		display: flex;
+	flex-direction: column;
+	width: 50%;
+	ound: grey;
+	}
+
+
+	.bAbout{
+	font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	color: black;
+	ound: green;
+	}
+
+.p2 {
+   display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+   
+font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+	    
+	   
+    }
+
+
+
+
+/*.p1p2 {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+
+    width: 88%;
+   
+   
+    font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+	    
+   
+  
+    }*/
+
+
+
+
+
+
+
+
+/*.midimg{
+	display: flex;
+
+width: 100%;
+
+}*/
+
+.middle-img{
+	width: 88%;
+	padding: 5%;
+}
+
+.SPV{
+display:flex;
+flex-direction:	row;
+flex-wrap:nowrap;
+ 
+align-items:center;
+justify-content: space-between;
+align-content: center;
+width: 88%;
+padding: 5%;
+
+	ound: red;
+
+}
+
+.SS{
+	
+	width: 50%;
+}
+.SP{
+	
+	width: 50%;
+}
+.SV{
+width: 50%;
+
+
+}
+
+.bServices{
+display:flex;
+flex-direction:	row;
+flex-wrap:nowrap;
+ 
+align-items:flex-end;
+justify-content: space-between;
+align-content: center;
+
+font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	color: black;
+
+}
+
+.bProduct{
+display:flex;
+flex-direction:	row;
+flex-wrap:nowrap;
+ 
+align-items:center;
+justify-content: space-between;
+align-content: center;
+
+font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	color: black;
+
+}
+
+.bVision{
+display:flex;
+flex-direction:	row;
+flex-wrap:nowrap;
+ 
+align-items:center;
+justify-content: space-between;
+align-content: center;
+
+font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	color: black;
+	
+}
+
+
+
+/**/
+.p3{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+
+  
+    font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+	    width: 100%;
+	    }
+
+.p4{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+
+   
+    font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+	width: 100%;
+	    }
+
+
+.p5{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+
+    
+    font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+	width: 100%;
+	    }
+
+.bContact{
+
+display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+	font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	padding-right: 84%;
+
+}
+.cCcontactinfo{
+	display:flex;
+flex-direction:	column;
+flex-wrap:	 nowrap;
+justify-content:	flex-start; 
+align-items:flex-start;
+align-content: center;
+padding-left: 6%;
+width: 100%; 
+font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+
+}
+
+/*.cCcontactinfo{
+	font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+
+
+}*/
+
+
+.footercontainer{
+	display:flex;
+flex-direction:	row;
+flex-wrap:	 nowrap;
+justify-content:	center; 
+align-items:center;
+align-content: center;
+
+width: 100%;
+font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+
+}
+
+
+/*TABLET VIEW*//*TABLET VIEW*//*TABLET VIEW*//*TABLET VIEW*//*TABLET VIEW*/
+/*TABLET VIEW*//*TABLET VIEW*//*TABLET VIEW*//*TABLET VIEW*//*TABLET VIEW*/
+/*TABLET VIEW*//*TABLET VIEW*//*TABLET VIEW*//*TABLET VIEW*//*TABLET VIEW*/
+/*TABLET VIEW*//*TABLET VIEW*//*TABLET VIEW*//*TABLET VIEW*//*TABLET VIEW*/
+/*|*/
+/*|*/
+/*V*/
+@media (max-width: 800px)
+
+
+{
+
+.navGI{
+	
+	display: flex;
+justify-content: center;
+align-content: center;
+flex-wrap: wrap;
+
+width: 100%;
+padding-bottom: 7%;
+
+
+
+
+}
+
+
+.nav1{
+display: flex;
+justify-content: space-between;
+align-content: center;
+align-items: center;
+
+flex-wrap:wrap;
+width: 50%;
+font-size: 12pt;
+	    font-family: 'Titillium Web', sans-serif;
+	    flex-direction: row;
+}
+
+.falselogo{
+	display: flex;
+	padding-left: 40%;
+}
+.logo{
+	display: none;
+}
+
+.headerimg{
+	display: none;
+}
+
+.iodgsIMG{
+	display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+width: 50%;
+flex-direction: row;
+
+
+}
+
+.iodgs{
+display:flex;
+flex-direction:	row; 
+flex-wrap: wrap;
+justify-content: space-between;	 
+align-items:center;
+
+
+
+}
+
+.IOD{
+display:flex;
+flex-direction:	column; 
+align-items: center;
+ 	
+}
+.Innovation{
+font-family: 'Bangers', cursive;
+	font-size: 60pt;}
+.On{font-family: 'Bangers', cursive;
+	font-size: 60pt;}
+
+.Demand{font-family: 'Bangers', cursive;
+	font-size: 60pt;}
+
+
+.gs{
+	font-size: 12pt;
+	    font-family: 'Titillium Web', sans-serif;
+
+
+text-align: center;
+ width:200px; 
+ height:25px;
+ 
+border:1px; border-style:solid; border-color:#black; display: inline-block; padding: .5em;
+padding: 5px;
+flex order: 4;
+
+}
+
+.FA{
+display:flex;
+flex-direction:	row;
+flex-wrap:nowrap;
+ 
+align-items:space-between;
+justify-content: space-between;
+align-content: flex-start;
+width:88%;
+ound: red;
+padding: 5%;
+
+
+}
+
+
+.boxfeature{
+display: flex;
+flex-direction: column;
+width: 50%;
+ound: blue;
+	
+	
+}
+
+.bFeatures{
+	font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	color: black;
+	ound: purple;
+	
+
+	}
+	.p1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+
+font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+    }
+	
+
+	.boxAbout{
+		display: flex;
+	flex-direction: column;
+	width: 50%;
+	ound: grey;
+	}
+
+
+	.bAbout{
+	font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	color: black;
+	ound: green;
+	}
+
+.p2 {
+   display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+   
+font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+	    
+	   
+    }
+
+
+
+
+/*.p1p2 {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+
+    width: 88%;
+   
+   
+    font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+	    
+   
+  
+    }*/
+
+
+
+
+
+
+
+
+/*.midimg{
+	display: flex;
+
+width: 100%;
+
+}*/
+
+.middle-img{
+	width: 88%;
+	padding: 5%;
+}
+
+.SPV{
+display:flex;
+flex-direction:	row;
+flex-wrap:nowrap;
+ 
+align-items:center;
+justify-content: space-between;
+align-content: center;
+width: 88%;
+height: 40%;
+padding: 5%;
+
+	
+
+}
+
+.SS{
+	
+	width: 20%;
+	ound: green;
+}
+.SP{
+	
+	width: 20%;
+}
+.SV{
+width: 20%;
+
+
+}
+
+.bServices{
+display:flex;
+flex-direction:	row;
+flex-wrap:nowrap;
+ 
+align-items:flex-end;
+justify-content: space-between;
+align-content: center;
+
+font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	color: black;
+
+}
+
+.bProduct{
+display:flex;
+flex-direction:	row;
+flex-wrap:nowrap;
+ 
+align-items:center;
+justify-content: space-between;
+align-content: center;
+
+font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	color: black;
+
+}
+
+.bVision{
+display:flex;
+flex-direction:	row;
+flex-wrap:nowrap;
+ 
+align-items:center;
+justify-content: space-between;
+align-content: center;
+
+font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	color: black;
+	
+}
+
+
+
+/**/
+.p3{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+
+  
+    font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+	    width:130%;
+	    }
+
+.p4{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+
+   
+    font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+	width: 130%;
+	    }
+
+
+.p5{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+
+    
+    font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+	width: 130%;
+
+	    }
+
+.bContact{
+
+display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+	font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	padding-right: 84%;
+
+}
+.cCcontactinfo{
+	display:flex;
+flex-direction:	column;
+flex-wrap:	 nowrap;
+justify-content:	flex-start; 
+align-items:flex-start;
+align-content: center;
+padding-left: 6%;
+width: 100%; 
+font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+
+}
+
+/*.cCcontactinfo{
+	font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+
+
+}*/
+
+
+.footercontainer{
+	display:flex;
+flex-direction:	row;
+flex-wrap:	 nowrap;
+justify-content:	center; 
+align-items:center;
+align-content: center;
+
+width: 100%;
+font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+
+}
+
+
+
+
+
+
+}
+
+
+
+/*MOBILE VIEW*//*MOBILE VIEW*//*MOBILE VIEW*//*MOBILE VIEW*//*MOBILE VIEW*/
+/*MOBILE VIEW*//*MOBILE VIEW*//*MOBILE VIEW*//*MOBILE VIEW*//*MOBILE VIEW*/
+/*MOBILE VIEW*//*MOBILE VIEW*//*MOBILE VIEW*//*MOBILE VIEW*//*MOBILE VIEW*/
+/*MOBILE VIEW*//*MOBILE VIEW*//*MOBILE VIEW*//*MOBILE VIEW*//*MOBILE VIEW*/
+/*|*/
+/*|*/
+/*V*/
+
+@media (max-width: 500px)
+
+
+{
+
+.navGI{
+	
+
+
+
+
+}
+
+
+.nav1{
+ound: red;
+flex-direction: column;
+display: flex;
+
+}
+
+.logo{
+	display: none;
+}
+
+.falselogo{
+	display: flex;
+}
+
+
+.iodgsIMG{
+	display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+width: 40%;
+flex-direction: row;
+
+}
+
+.headerimg{
+	display: none;
+}
+
+.FA{
+display:flex;
+flex-direction:	column;
+flex-wrap:nowrap;
+ 
+align-items:center;
+justify-content: center;
+align-content: center;
+
+
+width: 88%;
+
+
+}
+
+
+
+
+
+.boxfeature{
+display: flex;
+flex-direction: column;
+width: 88%;
+
+	
+	
+}
+
+.bFeatures{
+	font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	color: black;
+	
+
+	}
+	.p1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+
+font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+    }
+	
+
+	.boxAbout{
+		display: flex;
+		width: 88%;
+	
+	justify-content: center;
+	
+
+	}
+
+
+	.bAbout{
+		font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	color: black;
+	
+
+
+	}
+
+.p2 {
+   display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+   
+font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+	    
+	   
+    }
+
+.middle-img{
+	
+	width: 88%;
+}
+
+.SPV{
+display:flex;
+flex-direction:	column;
+flex-wrap:nowrap;
+ 
+align-items:center;
+justify-content: center;
+align-content: center;
+width: 88%;
+font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	color: black;
+	padding: 5%; 
+	
+
+}
+
+.SS{
+	
+	width: 88%;
+}
+.SP{
+	
+	width: 88%;
+}
+.SV{
+width: 88%;
+
+
+}
+
+.bServices{
+display:flex;
+flex-direction:	column;
+flex-wrap:nowrap;
+ 
+align-items:flex-start;
+justify-content: space-between;
+align-content: center;
+
+font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	color: black;
+	padding-top: 5%;
+}
+
+.bProduct{
+display:flex;
+flex-direction:	row;
+flex-wrap:nowrap;
+ 
+align-items:center;
+justify-content: space-between;
+align-content: center;
+
+font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	color: black;
+	padding-top: 5%;
+}
+
+.bVision{
+display:flex;
+flex-direction:	row;
+flex-wrap:nowrap;
+ 
+align-items:center;
+justify-content: space-between;
+align-content: center;
+
+font-family: 'Bangers', cursive;
+	font-size: 16pt;
+	color: black;
+	padding-top: 5%;
+}
+
+.p3{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+
+  
+    font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+	    width: 88%;
+	    }
+
+.p4{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+
+   
+    font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+	width: 88%;
+	    }
+
+
+.p5{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+
+    
+    font-size: 11pt;
+	    font-family: 'Titillium Web', sans-serif;
+	width: 88%;
+	    }
+
+
+
+
+
+}
+
+
+
 
 
